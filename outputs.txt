@@ -1,0 +1,59 @@
+Course outcome 1
+
+
+
+program1
+
+Product with the lowest price:
+Product Code:P002
+ProductName:Product2
+ProdcutPrice:50.0
+
+
+Product Information:
+Product_Code    Product_Name    Product_price
+101             product_1               100.0
+102             Product_2               128.2
+103             Product_3               790.0
+
+Product 1 is of the lowest price!
+
+
+program2
+
+Complex Number 1:
+3.5+4.5i
+Complex Number 2:
+2.5+0.5i
+Sum of the complex numbers:6.0+5.0i
+
+Complex Numbers are:
+5+4i
+7+9i
+After Addition= 12+13i
+
+
+program3
+
+Enter the number of rows
+3
+Enter the number of columns
+3
+Enter the elements if matrix 1
+2 4 6
+
+6 4 2
+
+4 6 2
+
+Enter the elements of matrix 2
+1 3 5
+
+5 3 1
+
+3 5 1
+
+Sum of matrices:-
+3       7       11
+11      7       3
+7       11      3
