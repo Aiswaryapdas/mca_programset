@@ -1,0 +1,109 @@
+sort)
+
+
+Enter the number of elements to be inserted:
+5
+Start to enter those 5 elements:
+22
+33
+44
+55
+66
+Enter the element to be inserted:
+77
+77 is not present in the array!
+
+Enter the number of elements to be inserted:
+5
+Start to enter those 5 elements:
+33
+44
+55
+66
+77
+Enter the element to be inserted:
+55
+55 is present at index 2!
+
+----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+maniplation
+
+
+Orginal text: Object Oreiented Programming
+
+The given text is empty->false
+
+Length of the given text: 28
+
+To Upper Case: OBJECT OREIENTED PROGRAMMING
+
+To Lower Case: object oreiented programming
+
+Substring     : Oreiented Programming
+
+Subsequence  : Oreiente
+
+Replace o with $: Object Oreiented Pr$gramming
+
+Replace all text with 'Java Lab': Java Lab
+
+Replace first word: Java Oreiented Programming
+
+Character at index 8: r
+
+ASCII value of character at index 8: 114
+
+First index of character 'O': 0
+
+Last index of character 'O': 7
+
+Concatenation with 'Lab': Object Oreiented Programming Lab
+
+__Comparison__
+
+If the value is both 0, both are equal. Otherwise unequal!
+
+Text for Comparison:objcect oriented programming->-4
+Text for Comparison:Object Oriented Programming->-4
+
+C:\Users\Student\Documents\aish_java>javac Strings.java
+
+C:\Users\Student\Documents\aish_java>java Strings
+Orginal text: Object Oreiented Programming
+
+The given text is empty->false
+
+Length of the given text: 28
+
+To Upper Case: OBJECT OREIENTED PROGRAMMING
+
+To Lower Case: object oreiented programming
+
+Substring     : Oreiented Programming
+
+Subsequence  : Oreiente
+
+Replace O with $: $bject $reiented Programming
+
+Replace all text with 'Java Lab': Java Lab
+
+Replace first word: Java Oreiented Programming
+
+Character at index 8: r
+
+ASCII value of character at index 8: 114
+
+First index of character 'O': 0
+
+Last index of character 'O': 7
+
+Concatenation with 'Lab': Object Oreiented Programming Lab
+
+__Comparison__
+
+If the value is both 0, both are equal. Otherwise unequal!
+
+Text for Comparison:objcect oriented programming->-4
+
+
