@@ -1,50 +1,42 @@
-class Product{
-	String pcode;
-	String pname;
-	double price;
-	
-	public void setProductDetails(String productCode, String productName, double productPrice){
-		pcode= productCode;
-		pname= productName;
-		price= productPrice;
-		}
-	public double getPrice(){
-		return price;
-		}
-
-	public void displayProduct(){
-		System.out.println("Product Code:" +pcode);
-		System.out.println("ProductName:" +pname);
-		System.out.println("ProdcutPrice:" +price);
-		}
-	}
+import java.util.Scanner;
+class Employee{
+	public String eNo;
+	public String eName;
+	public int eSalary;
+	public Employee(String eNo,String eName,int eSalary)
+	{
+	this.eNo = eNo;
+	this.eName = eName;
+	this.eSalary = eSalary;
+	} 
+}
 public class Main{
-	public static void main(String Args[]){
-		Product product1= new Product();
-		product1.setProductDetails("P001","Product1",100.0);
-		
-		Product product2= new Product();
-		product2.setProductDetails("P002","Product2",50.0);
-		
-		Product product3= new Product();
-		product3.setProductDetails("P003","Product3",150.0);
-
-		Product lowestPriceProduct=product1;
-		
-		if(product2.getPrice()<lowestPriceProduct.getPrice()){
-			lowestPriceProduct=product2;
-		}
-		if(product3.getPrice()<lowestPriceProduct.getPrice()){
-			lowestPriceProduct=product3;
-		}
-
-		System.out.println("\nProduct with the lowest price:");
-		lowestPriceProduct.displayProduct();
-		}
+	public static void main(String args[]) {
+	Scanner scan = new Scanner(System.in);
+	System.out.print("Enter count of employee list :");
+	int count = Integer.parseInt(scan.nextLine());
+	Employee[] employees = new Employee[count];
+	for (int i=0;i<count;i++)
+	{
+	System.out.print("Enter Number of Employee :");
+	String eNo = scan.nextLine();
+	System.out.print("Enter Name of Employee   :");
+	String eName = scan.nextLine();
+	System.out.print("Enter Salary of Employee :");
+	int eSalary = Integer.parseInt(scan.nextLine());
+	employees[i] = new Employee(eNo,eName,eSalary);
 	}
+	System.out.println("Enter the number of employee to be filtered out :");
+	String search = scan.nextLine();
+	for (int i=0; i<count; i++)
+	if(employees[i].eNo.equals(search))
+	{
+	System.out.println("Employee Number : "+employees[i].eNo);
+	System.out.println("Employee Name   : "+employees[i].eName);
+	System.out.println("Employee Salary : "+employees[i].eSalary);
+	}
+	}
+	
+}
 
-
-
-
-
-
+	
